@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className="bg-gray-50 dark:bg-gray-900 min-h-screen flex flex-col transition-colors">
         <QueryProvider>
-          <ThemeProvider defaultTheme="light" enableSystem>
+          <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
             <I18nProvider>
               <div className="flex min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors">
                 <Sidebar />
