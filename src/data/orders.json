@@ -1,0 +1,85 @@
+{
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "date": "2025-01-15",
+      "customerId": "CUS-001",
+      "city": "Алматы",
+      "channel": "Web",
+      "status": "Completed",
+      "total": 52700,
+      "items": [
+        { "sku": "SKU-1", "name": "Product A", "qty": 2, "price": 12000 },
+        { "sku": "SKU-2", "name": "Product B", "qty": 1, "price": 28700 }
+      ],
+      "comment": "Уточнить время доставки"
+    },
+    {
+      "id": "ORD-1002",
+      "date": "2025-01-14",
+      "customerId": "CUS-002",
+      "city": "Нур-Султан",
+      "channel": "Mobile",
+      "status": "Processing",
+      "total": 75300,
+      "items": [
+        { "sku": "SKU-3", "name": "Product C", "qty": 1, "price": 45000 },
+        { "sku": "SKU-4", "name": "Product D", "qty": 3, "price": 10100 }
+      ],
+      "comment": ""
+    },
+    {
+      "id": "ORD-1003",
+      "date": "2025-01-13",
+      "customerId": "CUS-003",
+      "city": "Шымкент",
+      "channel": "Web",
+      "status": "Completed",
+      "total": 34500,
+      "items": [
+        { "sku": "SKU-5", "name": "Product E", "qty": 2, "price": 17250 }
+      ],
+      "comment": "Срочная доставка"
+    },
+    {
+      "id": "ORD-1004",
+      "date": "2025-01-12",
+      "customerId": "CUS-001",
+      "city": "Алматы",
+      "channel": "Web",
+      "status": "Completed",
+      "total": 89600,
+      "items": [
+        { "sku": "SKU-1", "name": "Product A", "qty": 4, "price": 12000 },
+        { "sku": "SKU-6", "name": "Product F", "qty": 1, "price": 41600 }
+      ],
+      "comment": ""
+    },
+    {
+      "id": "ORD-1005",
+      "date": "2025-01-11",
+      "customerId": "CUS-004",
+      "city": "Актобе",
+      "channel": "Mobile",
+      "status": "New",
+      "total": 25900,
+      "items": [
+        { "sku": "SKU-7", "name": "Product G", "qty": 1, "price": 25900 }
+      ],
+      "comment": "Проверить наличие"
+    },
+    {
+      "id": "ORD-1006",
+      "date": "2025-09-21",
+      "customerId": "CUS-004",
+      "city": "Алматы",
+      "channel": "Mobile",
+      "status": "New",
+      "total": 25500,
+      "items": [
+        { "sku": "SKU-8", "name": "Product J", "qty": 1, "price": 25500 }
+      ],
+      "comment": "Проверить"
+    }
+  ]
+}

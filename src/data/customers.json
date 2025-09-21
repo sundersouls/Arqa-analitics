@@ -1,0 +1,36 @@
+{
+  "customers": [
+    {
+      "id": "CUS-001",
+      "name": "Aigerim K.",
+      "email": "aigerim@example.com",
+      "city": "Алматы",
+      "ltv": 245000,
+      "ordersCount": 6
+    },
+    {
+      "id": "CUS-002",
+      "name": "Бекзат А.",
+      "email": "bekzat@example.com",
+      "city": "Нур-Султан",
+      "ltv": 180000,
+      "ordersCount": 3
+    },
+    {
+      "id": "CUS-003",
+      "name": "Камила С.",
+      "email": "kamila@example.com",
+      "city": "Шымкент",
+      "ltv": 95000,
+      "ordersCount": 2
+    },
+    {
+      "id": "CUS-004",
+      "name": "Данияр М.",
+      "email": "daniyar@example.com",
+      "city": "Актобе",
+      "ltv": 50000,
+      "ordersCount": 1
+    }
+  ]
+}

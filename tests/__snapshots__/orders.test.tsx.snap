@@ -1,0 +1,613 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Orders Table Rendering should render table with orders data 1`] = `
+<div
+  class="rounded-md border"
+  data-testid="orders-table"
+>
+  <div
+    class="relative w-full overflow-x-auto"
+    data-slot="table-container"
+  >
+    <table
+      class="w-full caption-bottom text-sm"
+      data-slot="table"
+    >
+      <thead
+        class="[&_tr]:border-b"
+        data-slot="table-header"
+      >
+        <tr
+          class="hover:bg-muted/50 data-[state=selected]:bg-muted border-b transition-colors"
+          data-slot="table-row"
+        >
+          <th
+            class="text-foreground h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] w-12"
+            data-slot="table-head"
+          >
+            <button
+              aria-checked="false"
+              aria-label="Select all orders"
+              class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
+              data-slot="checkbox"
+              data-state="unchecked"
+              data-testid="select-all-checkbox"
+              role="checkbox"
+              type="button"
+              value="on"
+            />
+          </th>
+          <th
+            class="text-foreground h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-head"
+          >
+            <button
+              aria-label="Sort by order ID ascending"
+              class="flex items-center gap-1 hover:text-primary focus:outline-none focus:text-primary"
+              data-testid="sort-id"
+            >
+              ID заказа
+            </button>
+          </th>
+          <th
+            class="text-foreground h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-head"
+          >
+            <button
+              aria-label="Sort by date ascending"
+              class="flex items-center gap-1 hover:text-primary focus:outline-none focus:text-primary"
+              data-testid="sort-date"
+            >
+              Дата
+              <span
+                aria-hidden="true"
+              >
+                ↓
+              </span>
+            </button>
+          </th>
+          <th
+            class="text-foreground h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-head"
+          >
+            <button
+              aria-label="Sort by customer ascending"
+              class="flex items-center gap-1 hover:text-primary focus:outline-none focus:text-primary"
+              data-testid="sort-customer"
+            >
+              Клиент
+            </button>
+          </th>
+          <th
+            class="text-foreground h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-head"
+          >
+            <button
+              aria-label="Sort by city ascending"
+              class="flex items-center gap-1 hover:text-primary focus:outline-none focus:text-primary"
+              data-testid="sort-city"
+            >
+              Город
+            </button>
+          </th>
+          <th
+            class="text-foreground h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-head"
+          >
+            <button
+              aria-label="Sort by channel ascending"
+              class="flex items-center gap-1 hover:text-primary focus:outline-none focus:text-primary"
+              data-testid="sort-channel"
+            >
+              Канал
+            </button>
+          </th>
+          <th
+            class="text-foreground h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-head"
+          >
+            <button
+              aria-label="Sort by status ascending"
+              class="flex items-center gap-1 hover:text-primary focus:outline-none focus:text-primary"
+              data-testid="sort-status"
+            >
+              Статус
+            </button>
+          </th>
+          <th
+            class="text-foreground h-10 px-2 text-left align-middle font-medium whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-head"
+          >
+            <button
+              aria-label="Sort by total ascending"
+              class="flex items-center gap-1 hover:text-primary focus:outline-none focus:text-primary"
+              data-testid="sort-total"
+            >
+              Сумма
+            </button>
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        class="[&_tr:last-child]:border-0"
+        data-slot="table-body"
+      >
+        <tr
+          aria-label="Order ORD-1006, click to view details"
+          class="data-[state=selected]:bg-muted border-b transition-colors cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800 focus-within:bg-gray-50 dark:focus-within:bg-gray-800"
+          data-slot="table-row"
+          data-testid="order-row-ORD-1006"
+          role="button"
+          tabindex="0"
+        >
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+          >
+            <button
+              aria-checked="false"
+              aria-label="Select order ORD-1006"
+              class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
+              data-slot="checkbox"
+              data-state="unchecked"
+              data-testid="select-order-ORD-1006"
+              role="checkbox"
+              type="button"
+              value="on"
+            />
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+            data-slot="table-cell"
+            data-testid="order-id-ORD-1006"
+          >
+            ORD-1006
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-date-ORD-1006"
+          >
+            21.09.2025
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-customer-ORD-1006"
+          >
+            CUS-004
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-city-ORD-1006"
+          >
+            Алматы
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-channel-ORD-1006"
+          >
+            Mobile
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-status-ORD-1006"
+          >
+            <span
+              class="inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90"
+              data-slot="badge"
+            >
+              New
+            </span>
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+            data-slot="table-cell"
+            data-testid="order-total-ORD-1006"
+          >
+            ₸25,500
+          </td>
+        </tr>
+        <tr
+          aria-label="Order ORD-1001, click to view details"
+          class="data-[state=selected]:bg-muted border-b transition-colors cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800 focus-within:bg-gray-50 dark:focus-within:bg-gray-800"
+          data-slot="table-row"
+          data-testid="order-row-ORD-1001"
+          role="button"
+          tabindex="0"
+        >
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+          >
+            <button
+              aria-checked="false"
+              aria-label="Select order ORD-1001"
+              class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
+              data-slot="checkbox"
+              data-state="unchecked"
+              data-testid="select-order-ORD-1001"
+              role="checkbox"
+              type="button"
+              value="on"
+            />
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+            data-slot="table-cell"
+            data-testid="order-id-ORD-1001"
+          >
+            ORD-1001
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-date-ORD-1001"
+          >
+            15.01.2025
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-customer-ORD-1001"
+          >
+            CUS-001
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-city-ORD-1001"
+          >
+            Алматы
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-channel-ORD-1001"
+          >
+            Web
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-status-ORD-1001"
+          >
+            <span
+              class="inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90"
+              data-slot="badge"
+            >
+              Completed
+            </span>
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+            data-slot="table-cell"
+            data-testid="order-total-ORD-1001"
+          >
+            ₸52,700
+          </td>
+        </tr>
+        <tr
+          aria-label="Order ORD-1002, click to view details"
+          class="data-[state=selected]:bg-muted border-b transition-colors cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800 focus-within:bg-gray-50 dark:focus-within:bg-gray-800"
+          data-slot="table-row"
+          data-testid="order-row-ORD-1002"
+          role="button"
+          tabindex="0"
+        >
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+          >
+            <button
+              aria-checked="false"
+              aria-label="Select order ORD-1002"
+              class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
+              data-slot="checkbox"
+              data-state="unchecked"
+              data-testid="select-order-ORD-1002"
+              role="checkbox"
+              type="button"
+              value="on"
+            />
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+            data-slot="table-cell"
+            data-testid="order-id-ORD-1002"
+          >
+            ORD-1002
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-date-ORD-1002"
+          >
+            14.01.2025
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-customer-ORD-1002"
+          >
+            CUS-002
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-city-ORD-1002"
+          >
+            Нур-Султан
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-channel-ORD-1002"
+          >
+            Mobile
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-status-ORD-1002"
+          >
+            <span
+              class="inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90"
+              data-slot="badge"
+            >
+              Processing
+            </span>
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+            data-slot="table-cell"
+            data-testid="order-total-ORD-1002"
+          >
+            ₸75,300
+          </td>
+        </tr>
+        <tr
+          aria-label="Order ORD-1003, click to view details"
+          class="data-[state=selected]:bg-muted border-b transition-colors cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800 focus-within:bg-gray-50 dark:focus-within:bg-gray-800"
+          data-slot="table-row"
+          data-testid="order-row-ORD-1003"
+          role="button"
+          tabindex="0"
+        >
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+          >
+            <button
+              aria-checked="false"
+              aria-label="Select order ORD-1003"
+              class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
+              data-slot="checkbox"
+              data-state="unchecked"
+              data-testid="select-order-ORD-1003"
+              role="checkbox"
+              type="button"
+              value="on"
+            />
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+            data-slot="table-cell"
+            data-testid="order-id-ORD-1003"
+          >
+            ORD-1003
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-date-ORD-1003"
+          >
+            13.01.2025
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-customer-ORD-1003"
+          >
+            CUS-003
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-city-ORD-1003"
+          >
+            Шымкент
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-channel-ORD-1003"
+          >
+            Web
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-status-ORD-1003"
+          >
+            <span
+              class="inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90"
+              data-slot="badge"
+            >
+              Completed
+            </span>
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+            data-slot="table-cell"
+            data-testid="order-total-ORD-1003"
+          >
+            ₸34,500
+          </td>
+        </tr>
+        <tr
+          aria-label="Order ORD-1004, click to view details"
+          class="data-[state=selected]:bg-muted border-b transition-colors cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800 focus-within:bg-gray-50 dark:focus-within:bg-gray-800"
+          data-slot="table-row"
+          data-testid="order-row-ORD-1004"
+          role="button"
+          tabindex="0"
+        >
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+          >
+            <button
+              aria-checked="false"
+              aria-label="Select order ORD-1004"
+              class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
+              data-slot="checkbox"
+              data-state="unchecked"
+              data-testid="select-order-ORD-1004"
+              role="checkbox"
+              type="button"
+              value="on"
+            />
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+            data-slot="table-cell"
+            data-testid="order-id-ORD-1004"
+          >
+            ORD-1004
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-date-ORD-1004"
+          >
+            12.01.2025
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-customer-ORD-1004"
+          >
+            CUS-001
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-city-ORD-1004"
+          >
+            Алматы
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-channel-ORD-1004"
+          >
+            Web
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-status-ORD-1004"
+          >
+            <span
+              class="inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90"
+              data-slot="badge"
+            >
+              Completed
+            </span>
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+            data-slot="table-cell"
+            data-testid="order-total-ORD-1004"
+          >
+            ₸89,600
+          </td>
+        </tr>
+        <tr
+          aria-label="Order ORD-1005, click to view details"
+          class="data-[state=selected]:bg-muted border-b transition-colors cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800 focus-within:bg-gray-50 dark:focus-within:bg-gray-800"
+          data-slot="table-row"
+          data-testid="order-row-ORD-1005"
+          role="button"
+          tabindex="0"
+        >
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+          >
+            <button
+              aria-checked="false"
+              aria-label="Select order ORD-1005"
+              class="peer border-input dark:bg-input/30 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive size-4 shrink-0 rounded-[4px] border shadow-xs transition-shadow outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50"
+              data-slot="checkbox"
+              data-state="unchecked"
+              data-testid="select-order-ORD-1005"
+              role="checkbox"
+              type="button"
+              value="on"
+            />
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+            data-slot="table-cell"
+            data-testid="order-id-ORD-1005"
+          >
+            ORD-1005
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-date-ORD-1005"
+          >
+            11.01.2025
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-customer-ORD-1005"
+          >
+            CUS-004
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-city-ORD-1005"
+          >
+            Актобе
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-channel-ORD-1005"
+          >
+            Mobile
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]"
+            data-slot="table-cell"
+            data-testid="order-status-ORD-1005"
+          >
+            <span
+              class="inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90"
+              data-slot="badge"
+            >
+              New
+            </span>
+          </td>
+          <td
+            class="p-2 align-middle whitespace-nowrap [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] font-medium"
+            data-slot="table-cell"
+            data-testid="order-total-ORD-1005"
+          >
+            ₸25,900
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
